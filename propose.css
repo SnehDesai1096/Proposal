@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffb6c1; /* Light pink color */
+}
+
+.proposal-container {
+    text-align: center;
+    background-color: #ffb6c1; /* Set to the same light pink color as the body */
+    border-radius: 10px;
+}
+
+.proposal-container h1, .proposal-container p {
+    font-family: 'Clicker Script', cursive; /* Change to the romantic font */
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: 'Clicker Script', cursive; /* Change to the romantic font */
+    cursor: pointer;
+    background-color: #ff4d6b; /* Romantic pink color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff2a4e; /* Darker pink on hover */
+}
