@@ -1,8 +1,8 @@
 document.getElementById('yesButton').addEventListener('click', function() {
     // Redirect to a new page (replace 'new-page.html' with the actual page URL)
-    window.location.href = 'yes-response.html';
+    window.location.href = './yes-response';
 });
 
 document.getElementById('noButton').addEventListener('click', function() {
-    window.location.href = 'no-response.html';
+    window.location.href = './no-response';
 });
